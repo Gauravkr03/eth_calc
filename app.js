@@ -1,4 +1,4 @@
-// app.js
+
 document.getElementById('checkBalance').addEventListener('click', async () => {
     const walletAddress = document.getElementById('walletAddress').value;
     const tokenAddress = document.getElementById('tokenSelect').value;
@@ -86,4 +86,5 @@ document.getElementById('checkBalance').addEventListener('click', async () => {
         console.error(error);
         balanceElement.innerText = "Error fetching balance. Please check your wallet address.";
     }
+
 });
