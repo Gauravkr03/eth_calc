@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     background-color: #121212;
     color: #ffffff;
@@ -53,4 +53,5 @@ button:hover {
 p {
     text-align: center;
     font-size: 18px;
+
 }
